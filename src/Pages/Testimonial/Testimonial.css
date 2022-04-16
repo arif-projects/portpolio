@@ -1,0 +1,13 @@
+.card{
+    padding: 10px;
+    background-color: #333333;
+}
+
+.card img{
+    height: 100px;
+    border-radius: 360px;
+}
+
+.card h3{
+    color: #00a0b4;
+}

@@ -1,0 +1,30 @@
+.contact-form input, textarea{
+ margin-bottom: 20px;
+ border: 1px solid rgb(71, 107, 17);
+ border-radius: 10px;
+ outline: none;
+ width: 75%;
+ padding: 10px;
+ color: #00a0b4;
+ background: lightcyan;
+}
+
+.contact-info h3{
+    color: #00a0b4;
+}
+
+.form-button{
+    border: none;
+    outline: none;
+    padding: 14px 40px;
+    background: #00b49c;
+    border-radius: 15px;
+    color: rgb(95, 51, 51);
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+}
+.form-button:hover{
+    background: green;
+    color: honeydew;
+}
