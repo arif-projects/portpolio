@@ -7,13 +7,13 @@ import './About.css'
 const About = () => {
     return (
         <div id = "about" className = "about my-5">
-            <h3 className="aniText mb-5"><Typewriter
+            <h1 className="aniText mb-5"><Typewriter
                         options={{
                             strings: ['About Me'],
                             autoStart: true,
                             loop: true,
                         }}
-                        /></h3>
+                        /></h1>
 
 <Container>
             <Row>
@@ -37,7 +37,7 @@ const About = () => {
                        </div>
                        
                        <br />
-                       <button className = "banner-button mt-3"><a href="#home">Download Resume</a></button>
+                       <button className = "banner-button m-3"><a href="https://drive.google.com/file/d/1g_qck2uQ7Wk82QzSczyARyQa8IEKK0aG/view?usp=sharing">Download Resume</a></button>
                     </div>
                 </Col>
 

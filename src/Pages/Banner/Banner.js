@@ -20,7 +20,7 @@ const Banner = () => {
                         }}
                         />
                        </h3>
-                       <button className = "banner-button mt-3"><a href="#home">Contact me</a></button>
+                       <button className = "banner-button m-3"><a href ="#contact">Contact me</a></button>
                     </div>
                 </Col>
                 <Col md={6}>

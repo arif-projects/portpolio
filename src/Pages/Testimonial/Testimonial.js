@@ -13,14 +13,14 @@ const Testimonial = () => {
         .then(data=>setData(data))
     },[])
     return (
-        <div>
-                                   <h3 className="aniText mb-5"><Typewriter
+        <div id="Testimonial" className="mt-5">
+                                   <h1 className="aniText mb-5"><Typewriter
                         options={{
                             strings: ['What clients say'],
                             autoStart: true,
                             loop: true,
                         }}
-                        /></h3>
+                        /></h1>
             <Container>
                     <Row>
              {

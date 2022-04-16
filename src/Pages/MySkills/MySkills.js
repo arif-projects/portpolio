@@ -6,13 +6,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 const MySkills = () => {
     return (
         <div id = "skills">
-                     <h3 className="aniText mb-5"><Typewriter
+                     <h1 className="aniText mb-5"><Typewriter
                         options={{
                             strings: ['My Skills'],
                             autoStart: true,
                             loop: true,
                         }}
-                        /></h3>
+                        /></h1>
 
                         <Container className = "text-start skill">
                           <Row>

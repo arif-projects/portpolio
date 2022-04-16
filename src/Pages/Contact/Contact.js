@@ -6,16 +6,16 @@ import Typewriter from 'typewriter-effect';
 
 const Contact = () => {
     return (
-        <div className="my-5">
+        <div id="contact" className="my-5">
            <div className="content mb-5">
-           <h3 className="aniText mb-5"><Typewriter
+           <h1 className="aniText mb-5"><Typewriter
                         options={{
                             
                             strings: [' Send Me Message'],
                             autoStart: true,
                             loop: true,
                         }}
-                        /></h3>
+                        /></h1>
            </div>
              
            <Container>

@@ -17,7 +17,8 @@ const Navber = () => {
       <Nav.Link href="#about">About me</Nav.Link>
       <Nav.Link href="#skills">My Skills</Nav.Link>
       <Nav.Link href="#work">My Work</Nav.Link>
-      <Nav.Link href="#deets">Contact me</Nav.Link>
+      <Nav.Link href="#Testimonial">Testimonial</Nav.Link>
+      <Nav.Link href="#contact">Contact me</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
