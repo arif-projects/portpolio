@@ -34,8 +34,8 @@ const About = () => {
             <Row>
 
                 <Col md={6}>
-                    <div data-aos="fade-right" className="banner-image">
-                        <img className = "w-75" src={'https://i.ibb.co/pr27Y6Y/my-bg2-1.png'} alt="" />
+                    <div data-aos="fade-right" className="about-image">
+                        <img className = "w-75" src={'https://i.ibb.co/8KV749M/about.jpg'} alt="" />
                     </div>
                 </Col>
 
