@@ -1,24 +1,39 @@
 import React from 'react';
 import './MyWork.css';
-import Typewriter from 'typewriter-effect';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Typewriter } from 'react-simple-typewriter';
+import 'react-simple-typewriter/dist/index.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 const MyWork = () => {
+    useEffect(()=>{
+        AOS.init({duration: 2000});
+    },[]);
     return (
         <div id = "work" className = "my-5 mywork">
-                        <h1 className="aniText mb-5"><Typewriter
-                        options={{
-                            strings: ['My Work'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                        /></h1>
+                        <h1 className="aniText mb-5">
+                            My
+                            <span className="last">
+                                <Typewriter
+                                loop
+                                cursor
+                                cursorStyle="_"
+                                typeSpeed={[100]}
+                                deleteSpeed={[70]}
+                                delaySpeed={[1000]}
+                                words={[' work']}
+                                />
+                            </span> 
+                            
+                        </h1>
 
 <Container>
             <Row>
 
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="fade-right" className="cardd mb-3">
                         <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/tMq5vn3/work4.png'} alt="" />
                         <h3>Act Shady</h3>
@@ -31,7 +46,7 @@ const MyWork = () => {
                     </div>
                 </Col>
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="flip-up" className="cardd mb-3">
                       <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/v3RcRMm/5.png'} alt="" />
                    
@@ -42,7 +57,7 @@ const MyWork = () => {
                     </div>
                 </Col>
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="fade-left" className="cardd mb-3">
                     <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/vhVqkLT/work-2.png'} alt="" />
                           <h3>Time Sheriff</h3>
@@ -54,7 +69,7 @@ const MyWork = () => {
                   
                 </Col>
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="fade-right" className="cardd mb-3">
                     <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/Zh86rkm/doctor.png'} alt="" />
                           <h3>Life Motion Clinic</h3>
@@ -67,7 +82,7 @@ const MyWork = () => {
                   
                 </Col>
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="fade-up" className="cardd mb-3">
                     <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/wKJ9cXw/teacher.png'} alt="" />
                           <h3>Zoom online Couching</h3>
@@ -78,7 +93,7 @@ const MyWork = () => {
                   
                 </Col>
                 <Col md={4}>
-                    <div className="cardd mb-3">
+                    <div data-aos="fade-left" className="cardd mb-3">
                     <div className="description">
                         <img className = "w-100 h-50" src={'https://i.ibb.co/RBY7WgX/book.png'} alt="" />
                           <h3>Book Motion</h3>

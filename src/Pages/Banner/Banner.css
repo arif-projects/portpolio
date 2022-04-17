@@ -3,7 +3,11 @@
     transform: scale();
 }
 .aniText{
-    color: red;
+    color: #c2410c;
+}
+
+.last{
+    color: aqua;
 }
 
 .banner-button{

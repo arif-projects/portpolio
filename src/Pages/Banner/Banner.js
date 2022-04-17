@@ -1,7 +1,8 @@
 import React from 'react';
 import './Banner.css'
 import { Col, Container, Row } from 'react-bootstrap';
-import Typewriter from 'typewriter-effect';
+import { Typewriter } from 'react-simple-typewriter';
+import 'react-simple-typewriter/dist/index.js';
 const Banner = () => {
     return (
         <div id = "home" className = "banner mt-5">
@@ -11,15 +12,21 @@ const Banner = () => {
                     <div className="banner-text text-start">
                         <h3>Hey there!,</h3>
                         <h1>I'm <span className="skillHeader">Mohammad Arif</span></h1>
-                       <h3 className = "aniText">
-                       <Typewriter
-                        options={{
-                            strings: ['MERN Stack Web Developer', ' Front end Web Developer'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                        />
-                       </h3>
+                        <h3 className="aniText">
+                            Front end
+                            <span className="last">
+                                <Typewriter
+                                loop
+                                cursor
+                                cursorStyle="_"
+                                typeSpeed={[70]}
+                                deleteSpeed={[50]}
+                                delaySpeed={[1000]}
+                                words={[' web developer']}
+                                />
+                            </span> 
+                            
+                        </h3>
                        <button className = "banner-button m-3"><a href ="#contact">Contact me</a></button>
                     </div>
                 </Col>
